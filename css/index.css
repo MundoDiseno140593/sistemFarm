@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(153, 194, 242);
+}
+
+.titulo {
+    margin-top: 50px;
+    font-family: 'National Cartoon';
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-size: 40px;
+    color: rgb(56, 56, 56)
+}
+
+#fecha {
+    text-align: center;
+    color: rgb(41, 40, 40);
+    font-weight: normal;
+    font-size: 30px;
+    border-radius: .5em;
+}
+
+.container {
+    width: 750px;
+    background: rgba(0, 0, 0, 0.2);
+    padding: 20px;
+    margin: auto;
+    margin-top: 20px;
+}
+
+.acceso {
+    color: rgb(42, 42, 244);
+    text-decoration: none;
+}
+
+.dni {
+    text-align: center;
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 30px;
+    outline: none;
+}
+
+.botones {
+    display: flex;
+    margin-top: 20px;
+}
+
+.entrada {
+    background: rgb(0, 0, 255);
+    width: 100%;
+    padding: 25px 35px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.salida {
+    background: rgb(255, 0, 0);
+    width: 100%;
+    padding: 25px 35px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}

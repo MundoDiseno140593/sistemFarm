@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(153, 194, 242);
+}
+
+.img1 {
+    margin: auto !important;
+    margin-left: 580px !important;
+    width: 100%;
+}
+
+@media screen and (max-width: 1000px) {
+    form {
+        width: 290px;
+    }
+    .contenido-login h2 {
+        font-size: 2.4rem;
+        margin: 8px 0;
+    }
+    .img1 icleanslateg {
+        width: 400px;
+    }
+}
